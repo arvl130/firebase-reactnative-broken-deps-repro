@@ -1,7 +1,7 @@
 import { Text, View } from "react-native"
 import "../utils/firebase"
 import { useEffect, useState } from "react"
-import { User, getAuth, onAuthStateChanged } from "firebase/auth"
+import { User, getAuth, onAuthStateChanged } from "@firebase/auth"
 
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true)

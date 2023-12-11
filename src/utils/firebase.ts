@@ -1,4 +1,4 @@
-import { getApps, initializeApp } from "firebase/app"
+import { getApps, initializeApp } from "@firebase/app"
 
 // Initialize app if one is not already present.
 if (getApps().length === 0)
